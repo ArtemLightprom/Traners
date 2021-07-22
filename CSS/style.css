@@ -1,0 +1,230 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+} 
+/*стилизация хедера старт*/
+header{ 
+background-image: url(../images/backgrpund_footer.jpg);
+    width: 100%;
+    margin: auto;   
+	height: 303px;
+	background-position:top center;
+	background-size: cover;
+}
+.BGhead{
+	background-color:#24282f ;
+	padding-top: 30px;
+	max-width: 100%;
+}
+.container{
+	max-width: 1095px;
+	margin: auto;
+}
+.d-flex{
+	justify-content: space-between;
+	display: flex;
+}
+header nav ul{
+display: flex;
+list-style: none;
+}
+header nav ul li{
+	margin-left:24px ;
+}
+header nav ul li a{
+	color: white;
+	font-size: 11px;
+	text-decoration: none;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+header nav ul li:hover:after{
+	background-color: #b5a263;
+	width: 100%;
+}
+header nav ul li:after{
+	display: block;
+	transition: 0.4s;
+	width: 0%;
+	content: "";
+	height: 2px;
+	background-color: transparent;
+	margin-top: 33px;
+}
+.header_text{
+	background-color: rgba(36, 40, 47, 0.75);
+	width: auto;
+	height: 221px;
+}
+.banner_header{
+	padding-top: 71px;
+	max-width: 1095px;
+	margin: auto;
+}
+.banner_header h1{
+	font-size: 31px;
+	font-family: Raleway bolt;
+	color: white;
+	text-transform: uppercase;
+	padding-top: 17px;
+}
+.banner_header p{
+	font-family: Open Sans;
+	color: white;
+	font-size: 11px;
+/*стилизация хедера стоп*/
+/*стилизация футера старт*/
+}
+footer .btn_soc{
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 27px;
+	margin-left: 8px;
+	border: solid 1px #5c6067;
+	transition: 0.3s;
+}
+footer .btn_soc i{
+	color: #5c6067;
+	font-size: 14px;
+	padding-top: 7px;
+}
+footer div p{
+	color: white;
+}
+footer{
+	background-color: #24282f;
+	padding: 14px 0px;
+	font-family: Open Sans;
+	font-size: 10px;
+}
+footer .btn_soc:hover{
+	background-color: #b5a263;
+	border: solid 1px #b5a263;
+}
+footer .btn_soc:hover i{
+	color: white;
+}
+.footer2{
+	background-color: #2b2f35;
+}
+div .footer_txt{
+	margin: 0 75px 0 75px;
+}
+.footer_txt h3{
+	font-family: OpenSans Semibold;
+	font-size: 12px;
+	color: #b5a263;
+	padding-bottom: 20px;
+	padding-top: 60px;
+	text-transform:uppercase;
+}
+.footer_txt p{
+	font-family: OpenSans Semibold;
+	font-size: 12px;
+	color: #63676d;
+}
+.SUBSCRIBLE_NOW{
+	width: 242px;
+	height: 30px;
+	background-color: #b5a263;
+	color: white;
+	border: solid 1px #47463e;
+}
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    width: 240px;
+    background-color: #2b2f35;
+    color: #62666d;
+    border-width: 1px;
+    border-color: #62666d;
+    border-style: solid;
+    margin-bottom: 9px;
+    padding-left: 10px;
+}
+/*стилизация футера стоп*/
+/*стилизация мида старт*/
+.h3_mid{
+	margin: auto;
+    justify-content: center;
+    display: flex;
+	max-width: 880px;
+	border-bottom: solid 2px #b5a263;
+	padding: 65px 0 23px 0px;
+}
+.friends{
+	padding-top: 23px;
+}
+.friends_tax{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0px;
+	padding: 9px;	
+}
+.friends_tax div h4{
+	font-family: 'Raleway:wght@500';
+	font-size: 10px;
+	color: #494949;
+	text-transform: uppercase;
+}
+.friends_tax div p{
+	font-family: 'Open Sans';
+	font-size: 10px;
+	color: #c0b07b;
+}
+.social_icons{
+	padding-right: 10px;
+}
+.social_icons a{
+	display: inline-block;
+	text-decoration: none;
+	background-color: #dedede;
+	border: solid 1px #dedede;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 26px;
+	margin-left: 5px;
+
+}
+.social_icons a i{
+	color:white;
+	text-decoration: none;
+	font-size: 16px;
+}
+.h3_mid2 button{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	height: 40px;
+	width: 130px;
+	border: solid 1px #7c7e82;
+	background-color: white;
+	color: #7c7e82;
+	font-size: 14px;
+	font-family: Open Sans;
+	border-radius: 50px 50px 50px 50px;
+	padding: 10px;
+}	
+.h3_mid2{
+	margin: auto;
+    justify-content: center;
+    display: flex;
+	max-width: 880px;
+	padding: 10px 0px 20px 0px;
+}
+.social_icons .btn_soc:hover{
+	background-color: #b5a263;
+	border: solid 1px #b5a263;
+}
+.social_icons .btn_soc:hover i{
+	color: #dedede;
+}
+
